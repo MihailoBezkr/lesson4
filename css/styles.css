@@ -16,6 +16,11 @@ header {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: solid 1px var(--border-color);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    
+     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 img {
@@ -128,11 +133,13 @@ p {
 
 .navigation {
     display: flex;
+    margin-right: 332px;
 }
 
-.nav-item {
-    margin-right: 40px;
-    display: block;
+
+.navigation-list{
+gap: 40px;
+display: flex;
 }
 
 ul .nav-item:last-child {
@@ -209,7 +216,9 @@ nav {
 
 .advantages {
     display: flex;
+    gap:24px
 }
+
 
 
 .advantages-title {
@@ -233,13 +242,10 @@ nav {
 .advantages-list-item {
     flex-direction: row;
     width: 264px;
-    margin-right: 24px;
     align-items: baseline;
 }
 
-.advantages-list-item:last-child {
-    margin-right: 0px;
-}
+
 
 .advantages-icon-container{
 background-color:#F4F4FD;
@@ -252,6 +258,12 @@ display: flex;
 
 
 /* work */
+
+
+.work-section{
+padding-top: 0px;
+}
+
 
 .working-title {
     font-weight: 700;
@@ -317,7 +329,6 @@ display: flex;
 
 .worker {
     background-color: var(--primary-background-colour);
-    margin-right: 24px;
     text-align: center;
     box-shadow: 0px 2px 1px 0px #2E2F4214,
     
@@ -331,9 +342,7 @@ display: flex;
 
 }
 
-.worker:last-child {
-    margin-right: 0px;
-}
+
 
 .worker-name {
     font-weight: 500;
@@ -346,6 +355,7 @@ display: flex;
 
 .team-list {
     display: flex;
+    gap: 24px;
 }
 
 .post,
@@ -409,11 +419,10 @@ margin-bottom: 72px;
 }
 .clients-list{
 display: flex;
+gap: 24px;
 }
 
-.clients-list-item+.clients-list-item{
-margin-left: 24px;
-}
+
 
 .clients-list-item{
 width: 168px;
@@ -422,8 +431,6 @@ width: 168px;
     color: #8e8f99;
     border-radius: 4px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .clients-list-item:hover,
@@ -480,13 +487,12 @@ display: flex;
 }
 
 
-.footer-social-links-list>li{
-    margin-right: 16px;
+.footer-social-links-list{
+    display: flex;
+    gap: 16px;
 }
 
-.footer-social-links-list>li:last-child{
-margin-right: 0px;
-}
+
 
 .social-title{
     margin-bottom: 16px;
@@ -538,6 +544,11 @@ background-color: #31D0AA;
 .filter-button:focus {
     color: var(--white-text-colour);
     background-color: var(--accent-colour);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    
+0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+    
+0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 
