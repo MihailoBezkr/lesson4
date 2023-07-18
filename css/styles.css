@@ -21,6 +21,7 @@ header {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     
      0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    max-height: 72px; 
 }
 
 img {
@@ -31,6 +32,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary-background-colour);
     color: #434455;
+    width: 1440px;
 }
 
 h1,
@@ -73,7 +75,11 @@ p {
     align-items: baseline;
 }
 
+.header{
+width: 1158px;
+justify-content: space-between;
 
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -102,8 +108,6 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondery-text-colour);
-    padding-top: 21px;
-    padding-bottom: 21px;
     display: block;
 }
 
@@ -115,7 +119,6 @@ p {
 .adress {
     font-style: normal;
     display: flex;
-    margin-left: auto;
 }
 
 .adress-item {
@@ -133,7 +136,7 @@ p {
 
 .navigation {
     display: flex;
-    margin-right: 332px;
+
 }
 
 
